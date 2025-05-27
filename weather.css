@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#weather-data {
+  margin-top: 20px;
+}
+
+#temperature, #wind-speed, #weather-code {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
