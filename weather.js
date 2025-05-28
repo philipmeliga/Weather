@@ -5,7 +5,7 @@ const apiEndpoint = 'https://api.open-meteo.com/v1/forecast';
 // Get weather data when button is clicked
 document.getElementById('get-weather').addEventListener('click', () => {
   const location = document.getElementById('location').value;
-  const geocodingApi = `https:                                                                        
+  const geocodingApi = `https://nominatim.openstreetmap.org/search?q=${location}&format=json&limit=1`;                                                                     
 
                                                     
   fetch(geocodingApi)
